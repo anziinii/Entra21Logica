@@ -1,18 +1,20 @@
 public class CalculaValores{
     public static void main(String[] args){
         
-    int nummeroUm;
-    int nummeroDois;
-    int soma, subtracao;
+    double nummeroUm;
+    double nummeroDois;
+    double soma, subtracao;
+    double divisao;
 
     nummeroUm = 10;
     nummeroDois = 50;
 
     soma = nummeroUm + nummeroDois;
     subtracao = nummeroUm - nummeroDois;
+    divisao = nummeroUm / nummeroDois;
 
     System.out.println("O resultado da soma: " + soma);
     System.out.println("O resultado da soma: " + subtracao);
-    
+    System.out.println("O resultado da soma: " + divisao);
     }
     }
