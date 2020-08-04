@@ -24,8 +24,6 @@ public class Calculadora{
 
         System.out.println("O resultado da multiplicacao dos valores e: " + multiplicacao);
     
-
         sc.close();
-
     }
     }
